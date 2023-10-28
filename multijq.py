@@ -14,7 +14,7 @@ class JQRuntimeError(Exception):
         super().__init__(self.message)
 
 class Executor:
-    singleSelectorCompiled = None
+    compiled_selector = None
     contents = None
     def __init__(self, selectors=[], _test=False):
         self._test = _test
