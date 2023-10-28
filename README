@@ -1,0 +1,12 @@
+multijq
+~~~~~~~
+
+runs multiple jq selectors as one.
+
+----
+
+Licensed under AGPLv3.
+
+To install, simple use
+
+    pip install git+https://github.com/sonnyksimon/multijq.git
